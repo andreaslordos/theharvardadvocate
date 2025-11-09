@@ -91,8 +91,16 @@ const sidebarSx = {
     marginLeft: 0,
     marginRight: 0,
   },
+  ".logo": {
+    img: {
+      display: "block",
+      maxWidth: "100%",
+      height: "auto",
+    },
+  },
+
   ".advoStyle": {
-    // 
+    //
     display: "flex",
     flexDirection: "column",
     marginTop: "25px",
